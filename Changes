@@ -1,0 +1,5 @@
+Version 0.04
+	- Initial commit to github.com at https://github.com/mpfos/chartdb-perl.
+	- Adds POD documentation.
+	- Removes some cruft, since it now uses Log::Log4perl.
+	- Sets default DBROOT to Path::Tiny->cwd
