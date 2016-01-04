@@ -9,8 +9,8 @@ will execute the run subroutine, and start processing charts with the current
 working directory as reported by Path::Tiny assumed to be the database root.
 
 The CHARTS.TXT manifest file provides the minimum list of charts to process.  
-The database directories will be adjusted to accomodate the minimum list.  The 
-format of the manifest file is:
+The database directories will be adjusted to accomodate the minimum list.  
+The format of the manifest file is:
 
 cor:16700:
 enc:US5GA14M:
