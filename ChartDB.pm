@@ -18,11 +18,11 @@ use warnings;
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 use Carp;
 use Path::Tiny;
@@ -400,7 +400,7 @@ C<zip_root> is the chart database subdirectory for the zipped chart files.
 has 'zip_root' => (
     is      => 'ro',
     isa     => "Path::Tiny",
-    default => sub { Path::Tiny->cwd->('ZIP_ROOT') }
+    default => sub { Path::Tiny->cwd->child('ZIP_ROOT') }
 );
 
 =head2 C<failures>

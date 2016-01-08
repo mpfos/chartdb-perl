@@ -1,3 +1,6 @@
+Version 0.05
+	- Fixes zip_root default value coderef.
+
 Version 0.04
 	- Initial commit to github.com at https://github.com/mpfos/chartdb-perl.
 	- Adds POD documentation.
